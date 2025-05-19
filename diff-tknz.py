@@ -4,11 +4,19 @@ from transformers import AutoTokenizer
 
 # 5개의 모델 리스트
 model_names = [
-    "meta-llama/Llama-3.2-1B",
-    "meta-llama/Llama-3.2-3B",
-    "meta-llama/Llama-3.1-8B",
-    "meta-llama/Llama-3.1-70B",
-    "meta-llama/Llama-3.1-405B",
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-7B",
+    "Qwen/Qwen2.5-14B",
+    "Qwen/Qwen2.5-32B",
+    "Qwen/Qwen2.5-72B",
+    # "Qwen/Qwen2.5-Coder-0.5B",
+    # "Qwen/Qwen2.5-Coder-1.5B",
+    # "Qwen/Qwen2.5-Coder-3B",
+    # "Qwen/Qwen2.5-Coder-7B",
+    # "Qwen/Qwen2.5-Coder-14B",
+    # "Qwen/Qwen2.5-Coder-32B",
 ]
 
 # 토크나이저 저장 경로
